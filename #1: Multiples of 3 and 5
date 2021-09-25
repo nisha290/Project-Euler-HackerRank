@@ -1,0 +1,28 @@
+For N=10, if we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3,5,6 and 9. The sum of these multiples is 23.
+
+Similarly for N=100 , we get 2318 .
+
+import java.io.*;
+import java.util.*;
+/*import java.text.*;
+import java.math.*;
+import java.util.regex.*;*/
+public class Solution 
+{
+    public static void main(String[] args) 
+    {
+        Scanner in = new Scanner(System.in);
+        int t = in.nextInt();
+        for(int j = 0; j < t; j++)
+        {
+            int n = in.nextInt();
+            int s = 0;
+            for(int i=1;i<n;i++)
+            {
+                if(i%3 == 0 || i%5 == 0)
+                    s = s+i;
+            }
+            System.out.println(s);
+        }
+    }
+}
