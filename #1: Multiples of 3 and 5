@@ -2,6 +2,19 @@ For N=10, if we list all the natural numbers below 10 that are multiples of 3 or
 
 Similarly for N=100 , we get 2318 .
 
+Sample Input 0
+
+2
+10
+100
+
+Sample Output 0
+
+23
+2318
+
+SOLUTION:: 
+
 import java.io.*;
 import java.util.*;
 /*import java.text.*;
